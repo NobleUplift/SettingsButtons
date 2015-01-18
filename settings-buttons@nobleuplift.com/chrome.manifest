@@ -1,0 +1,43 @@
+content settings-buttons chrome/content/
+
+style chrome://global/content/customizeToolbar.xul chrome://settings-buttons/content/common.css
+
+#
+# Button 1
+#
+
+style chrome://global/content/customizeToolbar.xul chrome://settings-buttons/content/cookies.css
+
+overlay	chrome://browser/content/browser.xul chrome://settings-buttons/content/cookies.xul
+
+#
+# Button 2
+#
+
+style chrome://global/content/customizeToolbar.xul chrome://settings-buttons/content/exceptions-cookies.css
+
+overlay	chrome://browser/content/browser.xul chrome://settings-buttons/content/exceptions-cookies.xul
+
+#
+# Button 3
+#
+
+style chrome://global/content/customizeToolbar.xul chrome://settings-buttons/content/exceptions-savedpasswords.css
+
+overlay	chrome://browser/content/browser.xul chrome://settings-buttons/content/exceptions-savedpasswords.xul
+
+#
+# Button 4
+#
+
+style chrome://global/content/customizeToolbar.xul chrome://settings-buttons/content/allowedsites-addonsinstallation.css
+
+overlay	chrome://browser/content/browser.xul chrome://settings-buttons/content/allowedsites-addonsinstallation.xul
+
+#
+# Button 5
+#
+
+style chrome://global/content/customizeToolbar.xul chrome://settings-buttons/content/allowedsites-popups.css
+
+overlay	chrome://browser/content/browser.xul chrome://settings-buttons/content/allowedsites-popups.xul

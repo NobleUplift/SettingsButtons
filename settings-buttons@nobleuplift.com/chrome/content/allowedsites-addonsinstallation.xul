@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css"
+  href="chrome://settings-buttons/content/common.css"?>
+<?xml-stylesheet type="text/css"
+  href="chrome://settings-buttons/content/allowedsites-addonsinstallation.css"?>
+
+<!DOCTYPE overlay >
+<overlay id="custombutton-overlay"
+  xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul">
+
+<script type="application/javascript"
+  src="chrome://settings-buttons/content/allowedsites-addonsinstallation.js"/>
+
+<!-- Firefox -->
+<toolbarpalette id="BrowserToolbarPalette">
+  <toolbarbutton id="allowedsites-addonsinstallation"/>
+  </toolbarpalette>
+
+<!-- button details -->
+<toolbarbutton id="allowedsites-addonsinstallation"
+  label="Allowed Sites - Add-ons Installation"
+  tooltiptext="Open the Allowed Sites - Add-ons Installation dialog box"
+  oncommand="AllowedSitesAddonsInstallation[1]()"
+  class="toolbarbutton-1 chromeclass-toolbar-additional toolbar-button"
+  />
+
+</overlay>

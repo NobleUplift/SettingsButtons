@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css"
+  href="chrome://settings-buttons/content/common.css"?>
+<?xml-stylesheet type="text/css"
+  href="chrome://settings-buttons/content/exceptions-cookies.css"?>
+
+<!DOCTYPE overlay >
+<overlay id="custombutton-overlay"
+  xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul">
+
+<script type="application/javascript"
+  src="chrome://settings-buttons/content/exceptions-cookies.js"/>
+
+<!-- Firefox -->
+<toolbarpalette id="BrowserToolbarPalette">
+  <toolbarbutton id="exceptions-cookies"/>
+  </toolbarpalette>
+
+<!-- button details -->
+<toolbarbutton id="exceptions-cookies"
+  label="Exceptions - Cookies"
+  tooltiptext="Open the Exceptions - Cookies dialog box"
+  oncommand="ExceptionsCookies[1]()"
+  class="toolbarbutton-1 chromeclass-toolbar-additional toolbar-button"
+  />
+
+</overlay>

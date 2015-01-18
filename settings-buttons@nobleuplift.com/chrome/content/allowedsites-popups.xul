@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css"
+  href="chrome://settings-buttons/content/common.css"?>
+<?xml-stylesheet type="text/css"
+  href="chrome://settings-buttons/content/allowedsites-popups.css"?>
+
+<!DOCTYPE overlay >
+<overlay id="custombutton-overlay"
+  xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul">
+
+<script type="application/javascript"
+  src="chrome://settings-buttons/content/allowedsites-popups.js"/>
+
+<!-- Firefox -->
+<toolbarpalette id="BrowserToolbarPalette">
+  <toolbarbutton id="allowedsites-popups"/>
+  </toolbarpalette>
+
+
+<!-- button details -->
+<toolbarbutton id="allowedsites-popups"
+  label="Allowed Sites - Popups"
+  tooltiptext="Open the Allowed Sites - Pop-ups dialog box"
+  oncommand="AllowedSitesPopups[1]()"
+  class="toolbarbutton-1 chromeclass-toolbar-additional toolbar-button"
+  />
+
+</overlay>
